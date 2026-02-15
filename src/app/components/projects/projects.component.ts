@@ -59,8 +59,8 @@ export class ProjectsComponent {
       description: 'Modern portfolio website with smooth animations and responsive design.',
       image: 'assets/portfolio.png',
       technologies: ['Angular', 'SCSS'],
-      github: 'https://github.com',
-      demo: 'https://demo.com',
+      github: 'https://github.com/Ramrkr/My-Portfolio',
+      demo: 'https://ramanathanrk.netlify.app/',
       featured: false
     }
   ];

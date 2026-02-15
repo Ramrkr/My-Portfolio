@@ -5,10 +5,9 @@ import { ResumeUIComponent } from './components/resume-ui/resume-ui.component';
 import { HomeComponent } from './components/home/home.component';
 
 const routes: Routes = [
-  { path: '', redirectTo: '/home', pathMatch: 'full' },
-  { path: 'home', component: HomeComponent },
+  { path: '', component: HomeComponent},
   { path: 'resume', component: ResumeUIComponent },
-  { path: '**', redirectTo: '/home' }
+  { path: '**', redirectTo: '' }
   
 ];
 

@@ -8,7 +8,7 @@ import { Component } from '@angular/core';
 export class ExperienceComponent {
   experiences = [
     {
-      title: 'Software Engineer',
+      title: 'Full Stack Developer',
       company: 'LTIMindtree',
       period: '2025 - Present',
       description: 'Leading development of scalable web applications using Angular and Spring Boot. Mentoring junior developers and implementing best practices.',

@@ -45,15 +45,25 @@ export class ProjectsComponent {
       demo: 'https://clever-hamster-65118a.netlify.app/',
       featured: false
     },
+    // {
+    //   title: 'Fitness Tracker',
+    //   description: 'Mobile-first fitness tracking application with workout plans and progress tracking.',
+    //   image: 'assets/Fitness.png',
+    //   technologies: ['React', 'Firebase', 'Redux'],
+    //   github: 'https://github.com',
+    //   demo: 'https://demo.com',
+    //   featured: false
+    // },
     {
-      title: 'Fitness Tracker',
-      description: 'Mobile-first fitness tracking application with workout plans and progress tracking.',
-      image: 'assets/Fitness.png',
-      technologies: ['React', 'Firebase', 'Redux'],
-      github: 'https://github.com',
-      demo: 'https://demo.com',
+      title: 'Calculator App',
+      description: 'Responsive ReactJS calculator application supporting basic arithmetic operations with clean UI and real-time result updates.',
+      image: 'assets/Calculator.png',
+      technologies: ['ReactJS', 'JavaScript (ES6)', 'CSS3', 'Context API'],
+      github: 'https://github.com/Ramrkr/React-Calculator-ADV',
+      demo: 'https://magenta-syrniki-a30435.netlify.app/',
       featured: false
     },
+    
     {
       title: 'Portfolio Website',
       description: 'Modern portfolio website with smooth animations and responsive design.',

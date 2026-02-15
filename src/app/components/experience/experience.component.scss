@@ -1,0 +1,122 @@
+.experience-section {
+  background: var(--dark-bg);
+}
+
+.experience-timeline {
+  position: relative;
+  max-width: 800px;
+  margin: 0 auto;
+  padding-left: 2rem;
+  
+  &::before {
+    content: '';
+    position: absolute;
+    left: 0;
+    top: 0;
+    bottom: 0;
+    width: 2px;
+    background: var(--gradient-1);
+  }
+}
+
+.timeline-item {
+  position: relative;
+  margin-bottom: 3rem;
+  
+  &:last-child {
+    margin-bottom: 0;
+  }
+}
+
+.timeline-marker {
+  position: absolute;
+  left: -2.5rem;
+  top: 0.5rem;
+  width: 16px;
+  height: 16px;
+  background: var(--primary-color);
+  border-radius: 50%;
+  border: 3px solid var(--dark-bg);
+  z-index: 1;
+}
+
+.timeline-content {
+  margin-left: 1rem;
+}
+
+.experience-card {
+  background: var(--dark-surface);
+  padding: 2rem;
+  border-radius: 15px;
+  transition: all 0.3s ease;
+  border-left: 4px solid var(--primary-color);
+  
+  &:hover {
+    transform: translateX(10px);
+    box-shadow: 0 10px 30px rgba(99, 102, 241, 0.2);
+  }
+}
+
+.experience-header {
+  display: flex;
+  justify-content: space-between;
+  align-items: flex-start;
+  margin-bottom: 0.5rem;
+  flex-wrap: wrap;
+  gap: 1rem;
+  
+  h3 {
+    font-size: 1.5rem;
+    color: var(--dark-text);
+    margin: 0;
+  }
+  
+  .experience-period {
+    color: var(--primary-color);
+    font-weight: 500;
+    white-space: nowrap;
+  }
+}
+
+.experience-company {
+  font-size: 1.2rem;
+  color: var(--light-text);
+  margin-bottom: 1rem;
+  font-weight: 500;
+}
+
+.experience-description {
+  color: var(--light-text);
+  line-height: 1.8;
+  margin-bottom: 1.5rem;
+}
+
+.experience-tech {
+  display: flex;
+  flex-wrap: wrap;
+  gap: 0.5rem;
+  
+  .tech-tag {
+    padding: 0.3rem 0.8rem;
+    background: var(--dark-bg);
+    border-radius: 20px;
+    font-size: 0.9rem;
+    color: var(--primary-color);
+    border: 1px solid var(--primary-color);
+  }
+}
+
+@media (max-width: 768px) {
+  .experience-timeline {
+    padding-left: 1.5rem;
+  }
+  
+  .timeline-marker {
+    left: -1.75rem;
+  }
+  
+  .experience-header {
+    flex-direction: column;
+    align-items: flex-start;
+  }
+}

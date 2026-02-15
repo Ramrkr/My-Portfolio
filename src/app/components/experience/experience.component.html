@@ -1,0 +1,23 @@
+<section id="experience" class="section experience-section">
+  <div class="container">
+    <h2 class="section-title">Experience</h2>
+    <div class="experience-timeline">
+      <div *ngFor="let exp of experiences; let i = index" class="timeline-item">
+        <div class="timeline-marker"></div>
+        <div class="timeline-content">
+          <div class="experience-card">
+            <div class="experience-header">
+              <h3>{{ exp.title }}</h3>
+              <span class="experience-period">{{ exp.period }}</span>
+            </div>
+            <h4 class="experience-company">{{ exp.company }}</h4>
+            <p class="experience-description">{{ exp.description }}</p>
+            <div class="experience-tech">
+              <span *ngFor="let tech of exp.technologies" class="tech-tag">{{ tech }}</span>
+            </div>
+          </div>
+        </div>
+      </div>
+    </div>
+  </div>
+</section>
